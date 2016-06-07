@@ -1,6 +1,4 @@
-# Working with Adobe XD files
-
-### python script for transferring color palettes between Adobe experience design files
+# python script for transferring color palettes between Adobe experience design files
 
 the syntax for transferring palettes between adobe xd files...
 

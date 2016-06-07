@@ -34,7 +34,7 @@ if(os.path.isfile(args.target) and os.path.isfile(args.source)):
     sourcereSourceFile = source.read("resources/graphics/graphicContent.agc")
     sourceSwatchData = json.loads(sourcereSourceFile)   
     
-    # edit target file and see what 
+    # edit target file by either appending to or replacing the exisiting color palette
     if(args.append):
         for swatch in sourceSwatchData["resources"]["meta"]["ux"]["colorSwatches"]:
             targetSwatchData["resources"]["meta"]["ux"]["colorSwatches"].append(swatch)
